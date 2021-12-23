@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <title>じゃんけんセール</title>
+</head>
+
+<body>
+    <main>
+        <!-- header -->
+        <div class="top-wrapper">
+            <div class="container">
+                <h1>焼き物じゃんけんセール</h1>
+                <p>年に１度のお得なじゃんけんセール！じゃんけんで勝ったら30％オフの大特価！</p>
+            </div>
+        </div>
+        <!-- contents -->
+        <section id="contents" class="contents">
+            <div class="contents_wrapper">
+                <div class="contents_title_wrapper">
+                    <h3 class="text_center contents_title">対象商品</h3>
+                </div>
+                <div class="contents_list_wrapper">
+                    <ul class="contents_list">
+                        <li class="contents_detail">
+                            <div class="contents_kv">
+                                <img src="img/set1.jpg" alt="商品画像">
+                            </div>
+                            <div class="item_detail">
+                                <p class="item_name">青葉の取皿5枚セット</p>
+                                <p class="item_price">4,000円</p>
+                                <p class="item_description">どんな料理にも合う可愛い取り皿のセットです。</p>
+                            </div>
+                            <div class="btn message janken-show">購入する</div>
+                        </li>
+                        <li class="contents_detail">
+                            <div class="contents_kv">
+                                <img src="img/set2.jpg" alt="商品画像">
+                            </div>
+                            <div class="item_detail">
+                                <p class="item_name">ファミリー取皿・ボウルセット</p>
+                                <p class="item_price">7,000円</p>
+                                <p class="item_description">どんな料理にも合う可愛い取り皿のセットです。</p>
+                            </div>
+                            <div class="btn message janken-show">購入する</div>
+                        </li>
+                        <li class="contents_detail">
+                            <div class="contents_kv">
+                                <img src="img/set3.jpg" alt="商品画像">
+                            </div>
+                            <div class="item_detail">
+                                <p class="item_name">カラフルおうち時間セット</p>
+                                <p class="item_price">7,000円</p>
+                                <p class="item_description">どんな料理にも合う可愛い取り皿のセットです。</p>
+                            </div>
+                            <div class="btn message janken-show">購入する</div>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <!-- じゃんけんmodal -->
+        <div class="janken-modal-wrapper" id="janken-modal">
+            <div class="modal">
+                <div class="close-modal">
+                    <i class="fa fa-2x fa-times"></i>
+                </div>
+                <div id="janken-form">
+                    <h2>じゃんけんで勝ったら30%オフ！</h2>
+                    <form action="#">
+                        <ul class="janken_btn">
+                            <li id="gu_btn" class="btn--yellow btn--circle">グー</li>
+                            <li id="cho_btn" class="btn--yellow btn--circle">チョキ</li>
+                            <li id="par_btn" class="btn--yellow btn--circle">パー</li>
+                        </ul>
+                        <div class="box-style">
+                            <div id="pc" class="box-pc">相手の手は・・・</div>
+                            <div id="result" class="box-result">じゃんけんの結果は？</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

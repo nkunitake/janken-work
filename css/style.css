@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text_center{
+	text-align: center;
+}
+
+/* header */
+
+.top-wrapper {
+  background-image: url(../img/title_img.jpg);
+  background-size: cover;
+  color: white;
+  width: 1200px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* contents */
+
+.contents{
+	padding: 64px 0 48px 0;
+}
+
+.contents_wrapper{
+	width: 1200px;
+}
+
+.contents_title_wrapper{
+	margin-bottom:64px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.contents_title{
+	font-size: 24px;
+	color: #5dca88;
+}
+
+.contents_list_wrapper{
+	width: 1200px;
+	margin-bottom: 56px;
+}
+
+.contents_list{
+	display: flex;
+}
+
+.contents_detail{
+	width: 33.33%;
+	padding: 0 5px;
+}
+
+.contents_kv{
+	padding-bottom: 12px;
+}
+
+.contents_kv img{
+    width: 350px;
+    height: auto;
+}
+
+.item_detail{
+	width: 100%;
+}
+
+.item_name{
+	padding-bottom: 12px;
+    font-weight: bold;
+}
+
+.item_price{
+	padding-bottom: 6px;
+}
+
+.item_description{
+	padding-bottom: 20px;
+}
+
+.btn {
+  padding: 20px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: o auto;
+}
+
+.message {
+  padding: 15px 120px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0px 7px #1a7940;
+}
+
+
+/* じゃんけんmodal */
+.janken-modal-wrapper {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+#janken-form {
+  width: 100%;
+}
+
+#janken-form h2 {
+  color: #5f5d60;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.janken_btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn--yellow {
+  color: #5f5d60;
+  background-color: #fff100;
+  border-bottom: 5px solid #ccc100;
+}
+
+.btn--circle {
+  border-radius: 50%;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  -webkit-box-shadow: 0 5px 0 #e6d900;
+  box-shadow: 0 5px 0 #e6d900;
+  margin: 20px 10px;
+}
+
+.btn--circle:hover {
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+  -webkit-box-shadow: 0 2px 0 #e6d900;
+  box-shadow: 0 2px 0 #e6d900;
+}
+
+.box-style {
+    margin: 20px 0;
+    background: #dcefff;
+}
+
+.box-pc{
+    font-size: 20px;
+    background: #5fb3f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.box-result{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px 10px 10px;
+    margin: 0;
+}
